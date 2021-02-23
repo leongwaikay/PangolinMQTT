@@ -1,0 +1,33 @@
+{
+    "name": "PangolinMQTT",
+    "version": "1.0.0",
+    "description": "ArduinoIDE MQTT client library for ESP8266, ESP32",
+    "keywords": "mqtt",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/leongwaikay/PangolinMQTT"
+    },
+    "authors":
+    [
+      {
+        "name": "philbowles"
+      }
+    ],
+    "dependencies": [
+        {
+            "owner": "me-no-dev",
+            "name": "AsyncTCP",
+            "version": "*",
+            "platforms": ["espressif32"]
+        },
+        {
+            "owner": "me-no-dev",
+            "name": "ESPAsyncTCP",
+            "version": "*",
+            "platforms": ["espressif8266"]
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"]
+  }
